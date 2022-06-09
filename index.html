@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bros Japan</title>
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/style.scss">
+<link rel="stylesheet" href="style/media.scss">
+<link rel="stylesheet" href="style/media.css">
+<link rel="stylesheet" href="style/slick-theme.css">
+<link rel="stylesheet" href="style/slick.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+<script src="js/jquery/jquery-3.6.0.min.js"></script>
+<script src="js/jquery/jquery.inview.min.js"></script>
+<script src="js/jquery/slick.min.js"></script>
+</head>
+<body>
+  <header id="header">
+    <div class="header-wrapper">
+      <div class="header-left">
+        <a href="#"><h2>BROS JAPAN<span>®︎</span></h2></a>
+      </div>
+      <div class="header-right">
+        <ul class="header-menus">
+          <li class="header-menu"><a href="#">HOME</a></li>
+          <li class="header-menu"><a href="#">NEWS</a></li>
+          <li class="header-menu hide-menu">
+            <a href="#">BRAND<span><i class="bi bi-circle"></i><i class="bi bi-chevron-down"></i></span></a>
+            <ul class="hide-menus">
+              <li class="hide-menu1">
+                <a href="#">
+                <img src="img/img_logo_bj_archive.png">
+                <p>BJ CLASSIC COLLECTION</p>
+                </a>
+              </li>
+              <li class="hide-menu1">
+                <a href="#">
+                <img src="img/img_logo_eveunblue_archive.png">
+                <p>EVE un BLUE</p>
+              </a>
+              </li>
+              <li class="hide-menu1">
+                <a href="#">
+                <img src="img/img_logo_sunshift_archive.png">
+                <p>SUNSHIT</p>
+                </a>
+              </li>
+              <li class="hide-menu1">
+                <a href="#">
+                <img src="img/img_logo_ao_archive.png">
+                <p>American Optical</p>
+                </a>
+              </li>
+              <li class="hide-menu1">
+                <a href="#">
+                <img src="img/img_logo_etbaas_archive.png">
+                  <p>Et Bass</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="header-menu hide-menu2">
+            <a href="#">ABOUT<span class="bg1"><i class="bi bi-circle"></i><i class="bi bi-chevron-down"></i></span></a>
+            <ul class="hide-menus2">
+              <li class="hide-menu2">
+              <span><i class="bi bi-circle"></i></span>
+                <div class="menu-right">
+                  <a href="#">
+                <p>PHILOSOPHY</p>
+               企業理念
+              </a>
+            </div>
+            </li>
+              <li class="hide-menu2">
+                <span><i class="bi bi-circle"></i></span>
+                <div class="menu-right">
+                <a href="#">
+                <p>BUSINESS</p>
+                事業内容
+              </a>
+            </div>
+            </li>
+              <li class="hide-menu2">
+                <span><i class="bi bi-circle"></i></span>
+                <div class="menu-right">
+                <a href="#">
+                <p>OVERVIEW</p>
+                会社概要・沿革
+              </a>
+            </div>
+            </li>
+              <li class="hide-menu2">
+                <span><i class="bi bi-circle"></i></span>
+                <div class="menu-right">
+                <a href="#">
+                <p>MADE IN SABAE</p>
+                鯖江でのモノづくり
+              </a>
+            </div>
+            </li>
+            </ul>
+          </li>
+          <li class="header-menu"><a href="#">CONTACT</a></li>
+          <li><a class="store-btn" href="#">WEB STORE</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <h2>MENU</h2>
+        </div>
+      </div>
+      </div>
+      <div id="mask"></div>
+      <div class="sides">
+        <div class="close">
+          <span></span>
+          <span></span>
+          <h2>CLOSE</h2>
+        </div>
+        <div class="side-wrapper">
+          <ul class="side-menus">
+            <li class="side-menu"><a href="#">HOME</a></li>
+            <li class="side-menu"><a href="#">NEWS</a></li>
+            <li class="side-menu">
+              <a href="#">BRAND</a>
+              <ul class="side-brand">
+                <li>
+                  <a href="#">
+                    <img src="img/img_logo_bj_archive.png">
+                    <p> BJ CLASSIC COLLECTION</p>
+                    </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/img_logo_eveunblue_archive.png">
+                    <p>EVE un BLUE</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/img_logo_sunshift_archive.png">
+                    <p>SUNSHIT</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/img_logo_ao_archive.png">
+                    <p>American Optical</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/img_logo_etbaas_archive.png">
+                    <p>Et Bass</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="side-menu">
+              <a href="#">ABOUT</a>
+              <ul class="side-about">
+                <li>
+                  <span><i class="bi bi-circle"></i></span>
+                      <a href="#">
+                    企業理念
+                  </a>
+                </li>
+                  <li>
+                    <span><i class="bi bi-circle"></i></span>
+                    <a href="#">
+                    事業内容
+                  </a>
+                </li>
+                  <li>
+                    <span><i class="bi bi-circle"></i></span>
+                    <a href="#">
+                    会社概要・沿革
+                  </a>
+                </li>
+                  <li>
+                    <span><i class="bi bi-circle"></i></span>
+                    <a href="#">
+                    鯖江でのモノづくり
+                    </a>
+                </li>
+              </ul>
+            </li>
+            <li class="side-menu"><a href="#">CONTACT</a></li>
+          </ul>
+          <ul class="sns">
+            <h2 class="side-heading">SOCIAL</h2>
+            <li>
+            <a href="#">
+              <i class="bi bi-youtube"></i>
+              <p>YouTube</p>
+            </a>
+            </li>
+            <li>
+            <a href="#">
+              <i class="bi bi-journal"></i>
+              <p>Note</p>
+            </a>
+            </li>
+          </ul>
+          <h2 class="side-heading">WEB STORE</h2>
+          <a class="store-box" href="#">
+            <i class="bi bi-bag"></i>
+            <p>BROS JAPAN stores</p>
+          </a>
+        </div>
+      </div>
+  </header>
+  <main>
+    <!-- hero -->
+    <section id="hero">
+      <img class="Images currentImage" src="img/img_mv_01_738.jpg">
+      <img class="Images" src="img/img_mv_02.jpg">
+      <img class="Images" src="img/img_mv_03.jpg">
+      <nav class="dots">
+        <span class="current-btn"></span>
+        <span></span>
+        <span></span>
+      </nav>
+      <div class="hero-headings">
+        <img class="hide-image" src="img/logo_bird_w_bird.png">
+        <p class="hero-text"><span>WE ONLY PRODUSE</span>WHAT WE BELIEVE IN.</p>
+        <p class="hero-text">BASED IN <span>SABAE,FUKUI,JAPAN</span> - SINSE <span>2001</span></p>
+        <h1 class="hero-main">BROS JAPAN<span><img class="hide-image2" src="img/logo_bird_w_bird.png">GROUP</span></h1>
+      </div>
+    </section>
+<!-- area -->
+    <div id="area"></div>
+<!-- philosophy -->
+    <section id="philosophy">
+      <div class="p-wrapper">
+        <div class="p-left">
+          <img src="img/img_about__.jpg">
+          <p>BJ CLASSIC COLLECTION</p>
+        </div>
+        <div class="p-right">
+          <p class="p-right-title">PHILOSOPHY</p>
+          <h2>自分たちが</br>
+            信じるモノだけを</h2>
+          <p class="p-right-text">
+            創業してからこれまで「自分たちが信じるモノだけを作っていく」そのことをひたすら胸に、モノ作りをしてきました。
+            使っていただくほどに感じていただける「何か」は、熟練の職人による何百工程という手仕事によって生み出されています。
+          </p>
+          <p class="p-right-text">
+            自分たちが信じたモノが誰かの手に届き、その人生を、ほんの少し豊かなものにできたらとても幸せです。
+          </p>
+          <a class="btn" href="#">ABOUT US<span><i class="bi bi-chevron-right"></i></span></a>
+        </div>
+      </div>
+    </section>
+    <section id="news">
+      <div class="news-wrapper">
+        <h1>LATEST NEWS</h1>
+        <div class="news-right">
+          <a href="#" class="news">
+            <div class="N-wrapper border">
+              <div class="N-left">
+                <p class="Ndata">2022.04.01</p>
+                <p class="Ntitle">IMAGINE <span>〜２年ぶりの展示会の思い〜</span></p>
+                <p class="Ntext">2022年春、2年ぶりに単独での展示会<span>「BJ CLASSIC COLLECTION & EVE un 2022 SPRING & SUMMER EXHIBITION」</span>開催に踏み切りました。</p>
+                <a class="btn2" href="#">READ MORE<i class="bi bi-chevron-right"></i></a>
+                </div>
+                <div class="N-right">
+                  <div class="mask"></div>
+                  <img src="img/img_news_2_thumb.jpg">
+                </div>
+            </div>
+          </a>
+          <a href="#" class="news">
+            <div class="N-wrapper">
+              <div class="N-left">
+                <p class="Ndata">2022.03.15</p>
+                <p class="Ntitle">コーポレートサイトオープンのお知らせ</p>
+                <p class="Ntext">この度、<span>BROS JAPAN</span>のコーポレートサイトをオープンいたしました。</p>
+                <a class="btn2" href="#">READ MORE<i class="bi bi-chevron-right"></i></a>
+                </div>
+                <div class="N-right">
+                  <div class="mask"></div>
+                  <img src="img/img_news_1.jpg">
+                </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <img class="news-bottom" src="img/img_brand_.jpg">
+    <section id="brand">
+      <div class="brand-wrapper">
+        <h1>OUR BRANDS</h1>
+        <div class="container">
+         <a href="#">
+          <p class="brand-name">BJ CLASSIC COLLECTION</p>
+          <p class="Bheading">ORIGINAL</p>
+          <div class="brand-image"><img src="img/img_thumb_bj.jpg"></div>
+          <div class="brand-logo"><img src="img/img_logo_bj_archive.png"></div>
+         </a>
+        </div>
+        <div class="container">
+         <a href="#">
+          <p class="brand-name">EVE un BLUE</p>
+          <p class="Bheading">ORIGINAL</p>
+          <div class="brand-image"><img src="img/img_thumb_eve.jpg"></div>
+          <div class="brand-logo"><img src="img/img_logo_eveunblue_archive.png"></div>
+         </a>
+        </div>
+        <div class="container">
+         <a href="#">
+          <p class="brand-name">SUNSHIT</p>
+          <p class="Bheading">ORIGINAL</p>
+          <div class="brand-image"><img src="img/img_thumb_sunshift.jpg"></div>
+          <div class="brand-logo"><img src="img/img_logo_sunshift_archive.png"></div>
+         </a>
+        </div>
+        <div class="container">
+         <a href="#">
+          <p class="brand-name">American Optical</p>
+          <p class="Bheading">AGENCY</p>
+          <div class="brand-image"><img src="img/img_thumb_ao.jpg"></div>
+          <div class="brand-logo"><img src="img/img_logo_ao_archive.png"></div>
+         </a>
+        </div>
+        <div class="container">
+         <a href="#">
+          <p class="brand-name">Et Bass</p>
+          <p class="Bheading">PRODUCED</p>
+          <div class="brand-image"><img src="img/img_thumb_etbaas.jpg"></div>
+          <div class="brand-logo"><img src="img/img_logo_etbaas_archive.png"></div>
+         </a>
+        </div>
+      </div>
+    </section>
+    <img class="brand-bottom" src="img/img_sabae_1.jpg">
+    <section id="culture">
+      <div class="culture-wrapper">
+        <div class="culture-left">
+          <img src="img/_DSC0077.jpg">
+        </div>
+        <div class="culture-right">
+          <p class="Cheading">MADE IN SABAE</p>
+          <h1>伝統が息づくまち</br>鯖江でのモノづくり</h1>
+          <p class="culture-text">
+            豊かな自然に恵まれた穏やかな環境の中、職人によるモノづくりの心が息づく鯖江という土地で、歴史と文化を感じながら、私たちは日々眼鏡づくりと向き合っています。
+          </p>
+          <p class="culture-text">
+            この土地に会社として存在する以上、ビジネスを通して地域に貢献する、そんな使命にも似た想いを携えながら、これまでもこの先も、私たちはここ鯖江の地で職人と共に「メイドイン鯖江」を発信し続けます。
+          </p>
+          <a class="btn" href="#">MADE IN SABAE<span><i class="bi bi-chevron-right"></i></span></a>
+        </div>
+      </div>
+    </section>
+    <section id="media">
+      <div class="media-wrapper">
+        <h1>SOCIAL MEDIA</h1>
+        <div class="media-containers">
+          <div class="media-container ML">
+            <a href="#">
+            <img src="img/thumb_youtube.jpg">
+            <i class="bi bi-youtube"></i>
+            <span>YouTube</span>
+            <p class="media-heading">BROS JAPAN CHANNEL</p>
+            <p class="media-text"><span>BROS JAPAN CHANNEL</span>では、新作眼鏡の紹介を中心に、モノづくりの裏側などお届けします。</p>
+            </a>
+          </div>
+          <div class="media-container MR">
+            <a href="#">
+            <img src="img/thumb_note.jpg">
+            <i class="bi bi-journal"></i>
+            <span>note</span>
+            <p class="media-heading">BROS JAPAN</p>
+            <p class="media-text">ブロスジャパンのモノづくりの裏側、こだわりのポイントなどを掘り下げながらお届けします。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-left">
+        <img src="img/logo_bird_w.png">
+        <p>@Bros Japan Co.,Ltd.</p>
+      </div>
+      <div class="footer-right">
+          <ul class="f-menu">
+            <li class="f-heading">MENU</li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">BRAND</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+          <ul class="f-brand">
+            <li class="f-heading">BRAND LIST</li>
+            <li><a href="#">BJ CLASSIC COLLECTION</a></li>
+            <li><a href="#">EVE un BLUE</a></li>
+            <li><a href="#">SUNAHIT</a></li>
+            <li><a href="#">American Optical</a></li>
+            <li><a href="#">Et Baas</a></li>
+          </ul>
+          <ul class="f-store">
+            <li class="f-heading">WEB STORE</li>
+            <li><a hreF="#">BROS JAPAN store</a></li>
+          </ul>
+          <div class="bl">
+            <a href="#">PRIVACY POLICY</a>
+          </div>
+          <ul class="br">
+            <li class="f-heading">SOCIAL</li>
+            <li class="fns"><i class="bi bi-youtube"></i><a href="#">YouTube</a></li>
+            <li class="fns"><i class="bi bi-journal"></i><a href="#">note</a></li>
+          </ul>
+      </div>
+    </div>
+    <a id="toTop" href="#"><i class="bi bi-chevron-up"></i></a>
+  </footer>
+<script src="js/jqury.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
